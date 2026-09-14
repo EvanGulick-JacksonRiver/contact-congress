@@ -8,6 +8,8 @@ contact_form:
         - value: "(function(){function strip(){Array.prototype.forEach.call(document.querySelectorAll('style,[rel=\"stylesheet\"],[type=\"text/css\"]'), function(el){ try{ el.parentNode.removeChild(el) } catch(err){} });} strip(); setInterval(strip, 300);})()"
     - javascript:
         - value: "(function(){var w2=document.getElementById('gform_wrapper_2');if(w2){w2.style.display='block';w2.style.visibility='visible';w2.style.opacity='1';var innerForm=w2.querySelector('form');if(innerForm){innerForm.style.opacity='1';}}})()"
+    - javascript:
+        - value: document.querySelector('[data-elementor-type="header"]')?.remove()
     - find:
         - selector: "#input_2_2"
           options:
